@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 12px;
+  background: #222;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+canvas, img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 8px;
+}
+
+#filtres {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+
+button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 20px;
+  background: #444;
+  color: #fff;
+  font-size: 1rem;
+}
+
+button.actif, #photo {
+  background: #fff;
+  color: #222;
+}
